@@ -1,0 +1,34 @@
+.big-button{
+    width: 100%;
+    font-size: $title-size;
+    background-color: $button-color;
+    padding: 2.4rem;
+    color: whitesmoke;
+    border-bottom: 0.5rem solid darken($button-color, 10%);
+    margin-bottom: $title-size;
+    font-weight: bold;
+}
+
+.big-button:disabled{
+    opacity: 0.5;
+}
+
+.button{
+    background-color: $button-color;
+    color: whitesmoke;
+    border-bottom: 0.3rem solid darken($button-color, 10%);
+    font-weight: 500;
+    padding: 1.2rem;
+}
+
+.button--link{
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+@media(max-width:$desktop-width){
+    .big-button{
+        margin-bottom: $body-size;
+    }
+}

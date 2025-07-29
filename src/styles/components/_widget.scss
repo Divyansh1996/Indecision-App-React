@@ -1,0 +1,25 @@
+//Widget
+.widget{
+    background-color: $widget-body-color;
+    margin-bottom: $title-size;
+}
+
+.widget__p{
+    color: whitesmoke;
+    text-align: center;
+    padding: $body-size;
+    border-bottom: 0.1rem solid lighten($widget-body-color, 10%);
+}
+
+//Widget Header
+.widget-header{
+    background-color: $widget-header-color;
+    padding: $body-size;
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-between;
+}
+
+.widget-header__h3{
+    margin: 0;
+}

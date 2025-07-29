@@ -1,0 +1,15 @@
+.header {
+    color:$header-subtitlecolor;
+    background:$header-bgcolor;
+    margin-bottom: 1.2rem;
+    padding: 0.1rem 0;
+}
+
+.header__title {
+    color: $header-titlecolor;
+    font-size: $title-size;
+}
+
+.header__subtitle{
+    font-size: $subtitle-size;
+}

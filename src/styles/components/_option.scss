@@ -1,0 +1,9 @@
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: $body-size $title-size;
+    color: whitesmoke;
+    margin:0;
+    border-bottom: 1px solid lighten($color: $widget-header-color, $amount: 10%);
+    word-break: break-all;
+}
