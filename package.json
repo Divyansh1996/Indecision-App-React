@@ -15,6 +15,7 @@
     "babel-loader": "8",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "css-loader": "^7.1.2",
+    "express": "^5.1.0",
     "live-server": "^1.2.2",
     "normalize.css": "^8.0.1",
     "path-browserify": "^1.0.1",
