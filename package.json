@@ -7,7 +7,9 @@
   "scripts": {
     "build-babel": "babel src/util.js --out-file=public/scripts/util.js --presets=env,react --watch",
     "build": "webpack --watch",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "heroku-postbuild": "webpack --mode production --env production",
+    "start": "node server/server.js"
   },
   "dependencies": {
     "babel-loader": "8",

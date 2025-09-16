@@ -1,11 +1,10 @@
 import React from "react";
 
-import AddOption from "./AddOption";
-import Action from "./Action";
 import Options from "./Options";
 import App from "./App";
 import Header from "./Header";
 import OptionModals from "./OptionModals";
+import AddOption from "./AddOption";
 
 class IndecisionApp extends React.Component{
     state = {
@@ -85,7 +84,7 @@ class IndecisionApp extends React.Component{
             const obj = JSON.parse(json);
             this.setState(() => ({options:obj}))
         }
-        console.log("Component Mounted!!")
+        //console.log("Component Mounted!!")
     }
 
     componentDidUpdate(prevProps, prevState) {
@@ -98,11 +97,11 @@ class IndecisionApp extends React.Component{
         catch(e){
 
         }
-        console.log("Component updated");
+        //console.log("Component updated");
     }
 
     componentWillUnmount() {
-        console.log("Component unmounted");
+        //console.log("Component unmounted");
     }
 }
 
